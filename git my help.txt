@@ -6,3 +6,9 @@ git checkout commit_id
 
 3. Do this to clone a repository, but cd to the output folder first
 git clone "url"
+
+4. Do this to add file to staging area
+git add "filename"
+
+5. Do this to know satus of your repository since last change
+git status
