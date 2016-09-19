@@ -24,3 +24,27 @@ git diff --staged
 
 9. Discard any changes in working directory and staginf area
 git reset --hard
+
+10. See Branches
+git branch
+
+11. Create Branch
+git branch branch_name
+
+12. Git visualize graph
+git log --graph
+
+13. Make the most recent commit as branch
+git checkout -b new_branch_name
+
+14. Compares parent to this child commit
+git show childID
+
+15. Delete Branch (Only Deletes the label, Doesn't delete commits)
+git branch -d branch_name
+
+16. Shows all remote repos on github for this local repos
+git remote
+
+17. Creates a branch with this name in the
+git remote add branch_name repo_url
