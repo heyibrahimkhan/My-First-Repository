@@ -46,5 +46,8 @@ git branch -d branch_name
 16. Shows all remote repos on github for this local repos
 git remote
 
-17. Creates a branch with this name in the
-git remote add branch_name repo_url
+17. Creates a remote with this name in the
+git remote add remote_name repo_url
+
+18. Push to a remote this branch with this name
+git push -u remote_name branch_name 
