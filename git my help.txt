@@ -1,0 +1,8 @@
+1. Do this to display all commits' log
+git log
+
+2. Do this to Remove Head of a commits
+git checkout commit_id
+
+3. Do this to clone a repository, but cd to the output folder first
+git clone "url"
