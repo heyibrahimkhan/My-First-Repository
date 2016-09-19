@@ -22,7 +22,7 @@ git diff
 8. Do this to compare files in staging area and most recent commit
 git diff --staged
 
-9. Discard any changes in working directory and staginf area
+9. Discard any changes in working directory and staging area
 git reset --hard
 
 10. See Branches
@@ -51,3 +51,6 @@ git remote add remote_name repo_url
 
 18. Push to a remote this branch with this name
 git push -u remote_name branch_name 
+
+19. Initialize .git locally
+git init
