@@ -12,3 +12,15 @@ git add "filename"
 
 5. Do this to know satus of your repository since last change
 git status
+
+6. Do this to find differences in two files
+git diff "oldID" "updatedID"
+
+7. Do this to find difference between files in working directory and staging area
+git diff
+
+8. Do this to compare files in staging area and most recent commit
+git diff --staged
+
+9. Discard any changes in working directory and staginf area
+git reset --hard
