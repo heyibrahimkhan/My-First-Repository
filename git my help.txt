@@ -54,3 +54,6 @@ git push -u remote_name branch_name
 
 19. Initialize .git locally
 git init
+
+20. Download github repsoitory and hence update local by pulling github remote branch
+git pull remote_name remote_branch_name
