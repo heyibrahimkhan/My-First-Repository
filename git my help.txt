@@ -46,7 +46,7 @@ git branch -d branch_name
 16. Shows all remote repos on github for this local repos
 git remote
 
-17. Creates a remote with this name in the
+17. Adds a remote with this name in the
 git remote add remote_name repo_url
 
 18. Push to a remote this branch with this name
@@ -57,3 +57,6 @@ git init
 
 20. Download github repsoitory and hence update local by pulling github remote branch
 git pull remote_name remote_branch_name
+
+21. Undo commit and staging part
+git reset HEAD~
